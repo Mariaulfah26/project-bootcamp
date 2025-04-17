@@ -8,9 +8,9 @@
   <body class="font-space mx-auto max-w-[1240px]">
     <main class="bg-white">
       <!-- navbar -->
-       <navbar class="mx-auto flex max-w-[1240px] items-center justify-between pt-10 pb-1.5">
+       <navbar class="mx-auto flex max-w-[1240px] items-center justify-between pt-10 pb-1.5 lg:px-0 px-4">
         <img src="./public/svg/logo-positivus.svg" alt="logo-positivus">
-        <div class="flex items-center gap-10">
+        <div class=" hidden lg:flex items-center gap-10">
           <a class="text-xl leading-7">About Us</a>
           <a class="text-xl leading-7">Services</a>
           <a class="text-xl leading-7">Use Cases</a>
@@ -18,9 +18,14 @@
           <a class="text-xl leading-7">Blog</a>
           <button class="rounded-[14px] text-xl py-5 px-[35px] leading-7 border">Request a quote</button>
         </div>
+        <button class="lg:hidden flex">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
        </navbar>
       <!-- section hero -->
-      <div class="h-screen flex items-center mx-auto max-w-[1240px]">
+      <div class="h-screen flex items-center mx-auto max-w-[1240px] px-4 lg:px-0">
         <!-- layout -->
        <div class="mx-auto flex max-w-[1240px] flex-row items-center justify-between">
         <!-- left content -->
@@ -28,15 +33,20 @@
           <h1 class="text-6xl font-medium text-black">
             Navigating the digital landscape for success
           </h1>
+          <div class=" lg:hidden flex mt-4">
+            <img src="./public/svg/illustration-hero.svg" alt="illustration-hero">
+          </div>
           <p class="mt-[35px] text-xl font-normal text-black">
             Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.
           </p>
-          <button class="bg-black text-white max-w-[266px] max-h-[688px] pt-5 pb-5 pr-9 pl-9 mt-[35px] rounded-xl">
+          <button class="bg-black text-white w-full lg:max-w-[266px] pt-5 pb-5 pr-9 pl-9 mt-[35px] rounded-xl">
             Book a consultation
           </button>
         </div>
         <!-- right content -->
-         <img src="./public/svg/illustration-hero.svg" alt="illustration-hero">
+         <div class=" lg:flex hidden">
+           <img src="./public/svg/illustration-hero.svg" alt="illustration-hero">
+         </div>
        </div>
       </div>
       <!-- logotypes -->
