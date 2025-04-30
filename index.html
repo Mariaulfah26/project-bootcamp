@@ -18,28 +18,28 @@
           <a class="text-xl leading-7">Blog</a>
           <button class="rounded-[14px] text-xl py-5 px-[35px] leading-7 border">Request a quote</button>
         </div>
-        <button class="lg:hidden flex">
+        <button class="lg:hidden block">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
         </button>
        </navbar>
       <!-- section hero -->
-      <div class="h-screen flex items-center mx-auto max-w-[1240px] px-4 lg:px-0">
+      <div class="w-full h-auto flex flex-col items-center mx-auto max-w-[1240px] px-4 lg:px-0 lg:text-left lg:flex-row">
         <!-- layout -->
-       <div class="flex max-w-[1240px] flex-row items-center justify-between gap-24">
+       <div class="w-full h-auto lg:h-[550px] flex-col max-w-[1240px] lg:flex-row items-center justify-between gap-24">
         <!-- left content -->
         <div class="max-w-[531px] flex-1 flex-col">
-          <h1 class="text-6xl font-medium text-black">
+          <h1 class="text-4xl lg:text-6xl font-medium text-black mt-10 lg:mt-0 lg:text-left">
             Navigating the digital landscape for success
           </h1>
-          <div class="lg:hidden flex mt-4">
+          <div class="lg:hidden flex lg:mt-4 mt-2 justify-center">
             <img src="./public/svg/illustration-hero.svg" alt="illustration-hero">
           </div>
-          <p class="mt-[35px] text-xl font-normal text-black">
+          <p class="mt-[35px] text-base lg:text-xl font-normal text-black">
             Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.
           </p>
-          <button class="bg-black text-white w-full lg:max-w-[266px] pt-5 pb-5 pr-9 pl-9 mt-[35px] rounded-xl">
+          <button class="bg-black text-white text-base lg:w-auto w-full lg:max-w-[266px] py-4 lg:px-9 lg:py-5 mt-6 rounded-xl h-full lg:mt-[35px]">
             Book a consultation
           </button>
         </div>
@@ -50,7 +50,7 @@
        </div>
       </div>
       <!-- logotypes -->
-      <div class="flex-col lg:flex-row gap-2 lg:gap-16 grid grid-cols-3 lg:grid-cols-6 items-center justify-between grayscale mx-auto px-4 lg:px-0 ">
+      <div class="flex-col lg:flex-row gap-2 lg:gap-16 grid grid-cols-3 lg:grid-cols-6 items-center justify-between grayscale mx-auto px-4 lg:px-0 mt-24 lg:block">
           <img src="./public/svg/logo-amazon.svg" alt="logo-amazon" class="max-w-28 lg:max-w-[150px]">
           <img src="./public/svg/logo-dribble.svg" alt="logo-dribble" class="max-w-28 lg:max-w-[150px]">
           <img src="./public/svg/logo-hubspot.svg" alt="logo-hubspot" class="max-w-28 lg:max-w-[150px]">
@@ -236,8 +236,6 @@
       </div>
 
       <!-- responsive -->
-      <!-- <div class="flex w-full overflow-x-auto scrollbar-hide">
-        <div class="flex w-screen flex-row items-center gap-[40px]"> -->
 
       <div class="flex px-4 lg:px-0 flex-row overflow-x-auto scrollbar-hide gap-2.5 lg:hidden min-w-screen">
         <div class="bg-black rounded-[45px] p-[50px]">
@@ -480,7 +478,7 @@
           <!-- Card testimoni 1 -->
           <div class="flex flex-col gap-14 lg:gap-[36px]">
             <div class="border-brand-300 rounded-[45px] border lg:px-[52px] lg:py-[50px] p-7">
-              <p class="w-full lg:w-[502px] text-[16px] lg:text-lg text-white">
+              <p class="w-full lg:w-[502px] text-[15px] lg:text-lg text-white">
                 "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of
                 their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any
                 company looking to grow their online presence."
@@ -657,7 +655,7 @@
 
     <!-- responsive footer -->
     <div class="lg:hidden bg-black mt-[140px] w-full h-full pt-20 px-5 gap-6">
-      <div class="items-center justify-center flex flex-col gap-6 px-20">
+      <div class="items-center text-center justify-center flex flex-col gap-6 px-10">
         <img src="./public/svg/logo-positivus-white.svg" alt="logo-positivus-white" class="w-[180px] h-[29px]">
         <div class="flex flex-col items-center gap-3 text-white">
           <a>About Us</a>
